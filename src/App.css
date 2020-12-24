@@ -1,0 +1,51 @@
+.App {
+  max-width: 720px;
+  margin: auto;
+}
+
+.Menu {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  gap: 10px;
+}
+
+.Rive {
+  height: 40px;
+  margin-bottom: 40px;
+}
+
+.ExampleLink {
+  color: white;  
+  padding: 15px 20px;
+  background-color: #303030;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.ExampleLink:hover {
+  background-color: #333333;
+}
+
+.OuterContainer {
+  margin: 40px 40px 0px 40px;
+  max-width: 720px;
+  padding-top: calc(100% - 80px);
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.InnerContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+p {
+  font-family: 'Roboto';
+  font-size: 18px;
+  text-align: center;
+  color: #888888;
+}
